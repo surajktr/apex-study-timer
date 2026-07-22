@@ -1,0 +1,11 @@
+{
+    "name": "Apex Study Timer",
+    "short_name": "Study Timer",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#090D16",
+    "theme_color": "#00E699",
+    "description": "Apex Study Timer - Premium Habit & Study Tracker Flutter App",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}
