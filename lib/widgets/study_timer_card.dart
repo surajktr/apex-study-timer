@@ -331,18 +331,26 @@ class _StudyTimerCardState extends State<StudyTimerCard> {
   }
 
   Widget _buildColonSeparator() {
-    return const Padding(
-      padding: EdgeInsets.symmetric(horizontal: 4),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 4),
       child: Column(
         children: [
-          CircleAvatar(
-            radius: 4,
-            backgroundColor: AppColors.textMuted,
+          Container(
+            width: 8,
+            height: 8,
+            decoration: const BoxDecoration(
+              color: AppColors.textMuted,
+              shape: BoxShape.circle,
+            ),
           ),
-          SizedBox(height: 10),
-          CircleAvatar(
-            radius: 4,
-            backgroundColor: AppColors.textMuted,
+          const SizedBox(height: 10),
+          Container(
+            width: 8,
+            height: 8,
+            decoration: const BoxDecoration(
+              color: AppColors.textMuted,
+              shape: BoxShape.circle,
+            ),
           ),
         ],
       ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'screens/home_screen.dart';
 import 'theme/app_colors.dart';
 
@@ -36,6 +37,9 @@ class ApexStudyTimerApp extends StatelessWidget {
           primary: AppColors.primaryTeal,
           surface: AppColors.surface,
           background: AppColors.background,
+        ),
+        textTheme: GoogleFonts.outfitTextTheme(
+          ThemeData.dark().textTheme,
         ),
         useMaterial3: true,
       ),
